@@ -1,0 +1,96 @@
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+/* body {
+    background-color: rgb(150, 195, 254);
+    background-image: url(./bg-aboutme.jpg);
+    background-size: cover;
+} */
+.container {
+    display: flex;
+    justify-content:space-between;
+}
+img {
+    position: absolute;
+    top: 130px;
+    width: 400px;
+}
+.l-cont {
+    width: 500px;
+    height: 98vh;
+    
+    background-color: rgb(219, 247, 95);
+    border-top-right-radius: 50%;
+    border-bottom-right-radius: 50%;
+}
+.content {
+    width: 1000px;
+    display: flex;
+    justify-content: space-around;
+}
+h1 {
+    text-align: center;
+    font-family: cursive;
+    color: lightcoral;
+    margin-top: 40px;
+}
+.cnt {
+    width: 100px;
+    height: 50px;
+    background-color: white;
+    border-radius: 20px;
+    text-align: center;
+    font-size: 35px;
+    margin: 10px;
+    overflow: hidden;
+    color: black;
+}
+.cnt:hover {
+    width: 400px;
+    position: fixed;
+    height: 400px;
+    margin: 0px;
+    /* transition: 1.5s; */
+}
+/* .footer {
+    width: 100%;
+    background-color: white;
+} */
+
+a,a:visited,a:hover,a:active{
+  -webkit-backface-visibility:hidden;
+          backface-visibility:hidden;
+  position:relative;
+  transition:0.5s color ease;
+  text-decoration:none;
+
+
+}
+a:hover{
+  color:#d73444;
+}
+a.before:before,a.after:after{
+  content: "";
+  transition:0.5s all ease;
+  -webkit-backface-visibility:hidden;
+          backface-visibility:hidden;
+  position:absolute;
+}
+a.after:after{
+  bottom:-0.25em;
+} 
+a.before:before,a.after:after{
+  height:5px;
+  height:0.35rem;
+  width:0;
+  background:#d73444;
+}
+a.first:after{
+  left:0;
+}
+
+a.before:hover:before,a.after:hover:after{
+  width:100%;
+}

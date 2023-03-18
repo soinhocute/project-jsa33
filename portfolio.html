@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About me</title>
+    <link rel="stylesheet" href="./portfolio.css">
+    <link rel="stylesheet" href="./demo.css">
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+      integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    
+</head>
+<body style="background-color: rgb(150, 195, 254);
+background-image: url(./bg-aboutme.jpg);
+background-size: cover;"> 
+    <div class="container">
+        <div class="l-cont">
+            <img src="https://scontent.xx.fbcdn.net/v/t1.15752-9/332645036_968997911135898_1347636713728806676_n.png?stp=dst-png_p206x206&_nc_cat=107&ccb=1-7&_nc_sid=aee45a&_nc_ohc=K2k3J3buL1wAX_5SDHP&_nc_ad=z-m&_nc_cid=0&_nc_ht=scontent.xx&oh=03_AdQLGDMa0GFVE1kbPgScuPQY2StvkwmZYA4cfzoswSCIdA&oe=64302CB7" alt="">
+        </div>
+        <div class="infor" >
+            <h1>About me</h1>
+            <div class="content">
+                <div style="width: 400px;">             
+                    <p class="cnt-1 cnt cnt-h">
+                        <span style="font-size:20px ;">Infor <br>
+                        Họ tên: Lê Dương Thái Bảo <br>
+                        date: 30/10/2006
+                        cung: thiên yết <br>
+                        trường: thpt Đào Sơn Tây <br>
+                        Quê quán: TP Hồ Chí Minh <br>
+                        Trường: THPT Đào Sơn tây <br>
+
+                        </span> 
+                    </p>
+                    <p class="cnt-2 cnt cnt-h">
+                        <span style="font-size:20px ;">Habbits<br>
+                        đi chơi<br>
+                        ăn<br>
+                        ngủ<br>
+                        nghe nhạc<br>
+                        </span>
+                    </p>
+                    <p class="cnt-3 cnt cnt-h">
+                        <span style="font-size:20px ;">Project<br>
+                        jsa33 chủ đề ngày hạnh phúc<br>
+                        gồm có: <br>
+                        đăng nhập<br>
+                        đăng kí <br>
+                        about us<br>
+                        trang chủ <br>
+                        fetch api và local<br>
+                        </span>
+                    </p>
+                    <p class="cnt-4 cnt cnt-h">
+                        <span style="font-size:20px ;">Contact<br>
+                        sđt: 093 xxx 9xxx<br>
+                        email: bao438594@gmail.com<br>
+                        face: <a href="https://www.facebook.com/beSoi.3010">Lê Bảo</a><br>
+                        instagram: <a href="https://www.instagram.com/baob30102006/">baob30102006</a>
+                        
+                        <a href=""></a>
+                        </span>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div style="display: flex;margin: 10px;">
+     <p style="margin: 5px; color: red;">cre: @bảo</p>
+    <button style="background-color: greenyellow; width: 60px; border-radius: 10px;">
+        <a href="./index.html">home</a>
+    </button>   
+    </div>
+    <div class="mess">
+        <i class="fa-brands fa-facebook-messenger"></i>
+        <div class="fas">1</div>
+        <div class="pop-up">
+            <input type="">
+        </div>
+      </div>
+
+      <script>
+        let mess = document.querySelector(".mess>i");
+        let pop_up = document.querySelector(".pop-up");
+
+        mess.addEventListener("click", () => {
+          console.log(pop_up.classList)
+          if (pop_up.classList.contains("active")) {
+            pop_up.classList.remove("active");
+          }
+          else {
+            pop_up.classList.add("active");
+          }
+        })
+      </script>
+
+</body>
+</html>

@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link href="https://fonts.googleapis.com/css?family=Hammersmith+One" rel="stylesheet">
+    <link rel="stylesheet" href="./style.css">
+    <title>api song</title>
+</head>
+<body style="display: flex;"> 
+    <div class="container-fluid" >
+        
+        <div class="row text-center">
+        <div class="col-xs-6 text-right" id="songImage"></div>
+        <div class="col-xs-6 text-left">
+            <p id="song"></p>
+            <p id="artist"></p>
+            <p id="releaseDate"></p>
+            <button class="button" onclick="newRandomSong()"><span>NEW SONG</span></button>
+            <br>
+            <button class="button tweet" onclick="tweetSong()"><span>TWEET SONG <i class="fa fa-twitter"></i></span></button>
+            
+
+        </div>
+        </div>
+        <!--<div class="row text-center">
+        <button class="button" onclick="newRandomSong()"><span>NEW SONG</span></button>
+        </div>-->
+    </div>
+    <div style="margin-left: 100px;">
+        <div id="pokemon-container"></div>
+        <button onclick="api()" id="fetchpoke" style="background-color: greenyellow; border-radius: 10px;">
+        get pokemon
+    </button>
+    </div>
+    <div id="a">
+        <ul id="sp"></ul>
+        <button onclick="advice()" class="btn">
+            advice
+        </button>
+    </div>
+    <script src="./main.js"></script>
+    <script src="./api.js"></script>
+</body> 
+
+<!-- Colours 
+RGB: 41, 41, 41
+RGB: 255, 255, 100
+RGB: 153, 167, 238
+RGB: 255, 20, 100
+    -->
+</html>

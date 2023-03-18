@@ -1,0 +1,79 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  ul li {
+    list-style: none;
+  }
+  
+  a {
+    color: inherit;
+    text-decoration: none;
+  }
+
+body {
+  background: linear-gradient(to right, rgb(255, 255, 255), rgb(255, 255, 255));
+  background-image: url(./Xin\ chào\ cả\ nhà\ 3.jpg); 
+  background-size: cover;
+  background-attachment: fixed ;
+}
+
+.a .a1:hover {
+    color: rgb(255, 255, 255);
+    /* background-color: gray; */
+    background: linear-gradient(to right, rgb(43, 255, 5), rgb(231, 56, 247));
+    transition: 0.5s;
+}
+.a1 {
+    padding: 12px 23px;
+    border-radius: 15px;
+}
+
+.a {
+    display: flex;
+    margin: 0 413px;
+}
+/*******************************/
+
+.header {
+  background-color: #71d3ee;
+  color: rgb(255, 255, 255);
+}
+
+.header_nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position:fixed;
+  width: 1536px;
+  padding: 5px;
+  background-color: rgba(73, 102, 248, 0.933);
+}
+
+#nhatki-add {
+  width: 200px;
+  height: 80px;
+  margin: auto;
+}
+.add {
+  bottom: 10px;
+  position: absolute;
+  right: 15px;
+}
+.sbcc {
+  display: flex;
+  color: white;
+}
+i {
+  margin: 10px;
+  font-size: 30px;
+  color: blue;
+}
+a {
+  margin: 8px;
+  font-size: 20px;
+}
+
+
