@@ -35,7 +35,7 @@ function add() {
     document.getElementById('nhatki-add').innerHTML+=output;
 
 };
-
+/*
 fetch('https://api.adviceslip.com/advice')
     .then(response => response.json())
     .then(json => {
@@ -46,4 +46,4 @@ fetch('https://api.adviceslip.com/advice')
         const todoList = document.getElementById('todo-list');
         todoList.appendChild(listItem);
     })
-
+*/
